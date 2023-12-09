@@ -1,6 +1,6 @@
 # Hanukkah of Data 2023 -- Day 1
 pacman::p_load(dplyr, stringr)
-data_path <- here::here("data")
+data_path = here::here("data")
 
 read.csv(file.path(data_path, "noahs-customers.csv")) |>
   mutate(name = gsub(" jr.| iii| v| ii| iv | i", "", tolower(name)),
