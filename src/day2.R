@@ -9,10 +9,11 @@
 pacman::p_load(dplyr, stringr)
 data_path = here::here("data")
 load_data = function (f) read.csv(file.path(data_path, f))
-orders = load_data("noahs-orders.csv")
+
+orders       = load_data("noahs-orders.csv")
 orders_items = load_data("noahs-orders_items.csv")
-products = load_data("noahs-products.csv")
-customers = load_data("noahs-customers.csv")
+products     = load_data("noahs-products.csv")
+customers    = load_data("noahs-customers.csv")
 
 bagel_skus = products |> 
   filter(grepl("bagel", tolower(desc))) |> 
