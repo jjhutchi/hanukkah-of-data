@@ -18,19 +18,18 @@ customers    = load_data("noahs-customers.csv")
 
 # check which prices are offered below wholesale cost 
 orders_below_cost = orders_items |> 
-  left_join(products |> select(wholesale_cost, sku), by = "sku") |> 
+  left_join(products |> select(wholesale_cost, sku), 
+            by = "sku") |> 
   mutate(sale = unit_price < wholesale_cost) |> 
   filter(sale) |> 
   pull(orderid)
 
-frugal_customers = orders |> 
+orders |> 
   filter(orderid %in% orders_below_cost) |>
   group_by(customerid) |> 
-  tally() |>
-  arrange(desc(n)) |> 
-  pull(customerid)
-
-customers |> 
-  filter(customerid == frugal_customers[1])
+  summarise(num_purchases = n()) |>
+  arrange(desc(num_purchases)) |>
+  left_join(customers |> select(customerid, name, phone), by = "customerid") |> 
+  head()
 
 # phone: 585-838-9161
