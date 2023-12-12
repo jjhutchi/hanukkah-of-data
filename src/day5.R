@@ -4,7 +4,7 @@
 # - Woman from Staten Island
 # - owns many old cats
 
-pacman::p_load(dplyr, stringr)
+pacman::p_load(dplyr)
 data_path = here::here("data")
 load_data = function (f) read.csv(file.path(data_path, f))
 
