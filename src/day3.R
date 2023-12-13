@@ -1,10 +1,11 @@
-# Day 3
-
+# Hanukkah of Data 2023 -- Day 3
+#
 # clues: 
 # - cancer (June 21-July 22) born in the year('63, '75, '87, '99) of the rabbit
 # - had a bag from Noahs,
 # - had a hat with a spider on it (red haring)
 # - same neighborhood as past guy (phone: 332-274-4185)
+#
 
 pacman::p_load(dplyr, stringr)
 data_path = here::here("data")

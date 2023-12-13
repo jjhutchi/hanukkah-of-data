@@ -1,10 +1,11 @@
-# Day 6
-
+# Hanukkah of Data 2023 -- Day 6
+#
 # clues: 
 # - wood floors (red haring)
 # - cousin of Nicole Wilson (red haring)
 # - takes subway to visit, so is not in Staten Island? (red haring)
 # - buys products from Noah's only on sale - that Noah's loses money i.e. price < wholesale cost
+# 
 
 pacman::p_load(dplyr)
 data_path = here::here("data")

@@ -1,7 +1,8 @@
-# Day 4
-
+# Hanukkah of Data 2023 -- Day 4
+#
 # clues: 
 # - pastries from Noah's, purchased before 5am
+# 
 
 pacman::p_load(dplyr, stringr)
 data_path = here::here("data")

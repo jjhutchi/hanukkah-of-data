@@ -1,10 +1,11 @@
-# Day 2
-
+# Hanukkah of Data 2023 -- Day 2
+# 
 # clues: 
 # - look for receipts of bagels and coffee
 # - the contractors have initials JP, and purchased in 2017
-
+#
 # comments: dplyr::pull() is a nice way to get a column of a dataframe into its own vector
+#
 
 pacman::p_load(dplyr, stringr)
 data_path = here::here("data")
