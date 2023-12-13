@@ -28,7 +28,7 @@ When the investigator returned, they said, “Apparently, this cleaner had a spe
 Sarah first seemed hopeless, and then glanced at the USB drive you had just put back in her hand. She said, “I know it’s a long shot, but is there any chance you could find their phone number?”
 
 
-## Day 3 -- The Neighbor
+## Day 3 - The Neighbor
 
 Sarah and the investigator were very impressed with your data skills, as you were able to figure out the phone number of the contractor. They called up the cleaning contractor straight away and asked about the rug.
 
@@ -43,7 +43,7 @@ Sarah and the investigator were very impressed with your data skills, as you wer
 Can you find the phone number of the person that the contractor gave the rug to?
 
 
-## Day 4 -- The Early Bird
+## Day 4 - The Early Bird
 
 The investigator called the phone number you found and left a message, and a man soon called back:
 
@@ -60,7 +60,7 @@ The investigator called the phone number you found and left a message, and a man
 Can you find the bicycle fixer’s phone number?
 
 
-## Day 5 -- The Cat Lady
+## Day 5 - The Cat Lady
 
 “Yes, I did have that tapestry for a little bit. I even cleaned a blotchy section that turned out to be a friendly koala.
 
@@ -73,7 +73,7 @@ Can you find the bicycle fixer’s phone number?
 What’s the phone number of the woman from Freecycle?
 
 
-## Day 6 -- The Bargain Hunter
+## Day 6 - The Bargain Hunter
 
 “Why yes, I did have that rug for a little while in my living room! My cats can’t see a thing but they sure chased after the squirrel on it like it was dancing in front of their noses.
 
@@ -84,7 +84,7 @@ What’s the phone number of the woman from Freecycle?
 “I think she’s been taking it too far lately though. Once the subway fare increased, she stopped coming to visit me. And she’s really slow to respond to my texts. I hope she remembers to invite me to the family reunion next year.”
 
 
-## Day 7 -- The Meet Cute
+## Day 7 - The Meet Cute
 “Oh that tapestry, with the colorful toucan on it! I’ll tell you what happened to it.
 
 “One day, I was at Noah’s Market, and I was just about to leave when someone behind me said ‘Miss! You dropped something!’
