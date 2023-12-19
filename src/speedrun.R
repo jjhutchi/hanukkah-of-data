@@ -1,5 +1,4 @@
 # Hannukkah of Data speedrun 2023 
-# looks like day 5 isnt working
 
 pacman::p_load(dplyr, stringr)
 data_path = here::here("data/speedrun-data")
