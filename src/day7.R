@@ -6,7 +6,7 @@
 # - in store purchase
 # 
 
-pacman::p_load(dplyr)
+pacman::p_load(dplyr, stringr)
 data_path = here::here("data")
 load_data = function (f) read.csv(file.path(data_path, f))
 
@@ -42,3 +42,5 @@ color_purchases |>
 customers |> filter(customerid == "5783")
 
 # phone: 838-335-7157
+
+
